@@ -32,15 +32,6 @@ server/
 ...
 ```
 
-# Usage (run fullstack app on your machine)
-
-## Prerequisites
-- [MongoDB](https://gist.github.com/nrollr/9f523ae17ecdbb50311980503409aeb3)
-- [Node](https://nodejs.org/en/download/) ^10.0.0
-- [npm](https://nodejs.org/en/download/package-manager/)
-
-notice, you need client and server runs concurrently in different terminal session, in order to make them talk to each other
-
 ## Client-side usage(PORT: 5173)
 ```terminal
 $ yarn # or npm i    // npm install packages
@@ -54,7 +45,6 @@ $ npm run dev        // run it locally
 
 run the script at the first level:
 
-(You need to add a JWT_SECRET in .env to connect to MongoDB)
 
 ```terminal
 // in the root level
